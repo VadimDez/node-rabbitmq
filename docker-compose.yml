@@ -7,3 +7,10 @@ services:
       dockerfile: ./containers/node/Dockerfile
     ports:
     - "8888:8080"
+  mq:
+    build:
+      context: ./
+      dockerfile: ./containers/rabbitmq/Dockerfile
+    ports:
+      - "15672:15672"
+      - "5672:5672"
