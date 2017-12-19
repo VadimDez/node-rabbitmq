@@ -1,4 +1,5 @@
 # node-rabbitmq
+> Node + rabbitmq application
 
 ## Start
 
