@@ -1,6 +1,10 @@
 # node-rabbitmq
 > Node + rabbitmq application
 
+### RPC
+* [rpc_client.js](rpc_client.js)
+* [rpc_server.js](rpc_server.js)
+
 ## Start
 
 ```
